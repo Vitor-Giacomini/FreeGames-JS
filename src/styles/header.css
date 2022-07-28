@@ -21,6 +21,7 @@
 .header-filters {
     display: flex;
     justify-content: center;
+    text-align: center;
     color: var(--title-color);
     font-weight: 800;
 }
@@ -29,6 +30,7 @@
     cursor: pointer;
     background-color: transparent;
     color: var(--title-color);
+    min-width: 104px;
 }
 .header-filters option {
     cursor: pointer;
@@ -36,12 +38,12 @@
 }
 
 .genre-choice {
-    padding: 0 10px;
+    padding: 0px 0px;
 }
 .genre-choice select {
     text-transform: capitalize;
 }
 
 .plataform-choice {
-    padding: 0 10px;
+    padding: 0px 0px;
 }
